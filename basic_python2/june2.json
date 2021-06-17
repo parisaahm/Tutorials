@@ -1,0 +1,86 @@
+{
+ "metadata": {
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.0"
+  },
+  "orig_nbformat": 4,
+  "kernelspec": {
+   "name": "python3",
+   "display_name": "Python 3.7.0  ('venv': venv)"
+  },
+  "interpreter": {
+   "hash": "436247911ed8557ffa779c164022ecb590ad98fcb145d4339402c25e6edf7189"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2,
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "stream",
+     "name": "stdout",
+     "text": [
+      "i'm mo0ving\nI'm bigger\n"
+     ]
+    }
+   ],
+   "source": [
+    "class Mario():\n",
+    "\n",
+    "    def move(self):\n",
+    "        print(\"i'm mo0ving\")\n",
+    "\n",
+    "class Mushroom():\n",
+    "    \n",
+    "    def eat_mushroom(self):\n",
+    "        print(\"I'm bigger\")\n",
+    "\n",
+    "class Bigmario(Mario, Mushroom):\n",
+    "    pass\n",
+    "\n",
+    "bm = Bigmario()\n",
+    "bm.move()\n",
+    "bm.eat_mushroom()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "stream",
+     "name": "stdout",
+     "text": [
+      "35\n"
+     ]
+    }
+   ],
+   "source": [
+    "answer = lambda x : x*7\n",
+    "\n",
+    "print(answer(5))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ]
+}
